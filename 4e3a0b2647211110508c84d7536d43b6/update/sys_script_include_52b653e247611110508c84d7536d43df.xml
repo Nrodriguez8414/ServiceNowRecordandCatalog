@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_857394_narr.UserInformation</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>Recollect user information from table user</description>
+        <name>UserInformation</name>
+        <script><![CDATA[var UserInformation = Class.create();
+UserInformation.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    User_information: function() {
+        var nombreID = this.getParameter('sysparm_userInfo');
+        var info = new GlideRecord('sys_user');
+        if (info.get(nombreID)) {
+            var results = {
+				"user_name": info.getValue('user_name'),
+                "email": info.getValue('email'),
+				"mobile_phone": info.getValue('mobile_phone'),
+				
+            };
+            return JSON.stringify(results);
+        } else {
+            return null;
+        }
+    }
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-29 15:39:21</sys_created_on>
+        <sys_id>52b653e247611110508c84d7536d43df</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>UserInformation</sys_name>
+        <sys_package display_value="NARR" source="x_857394_narr">4e3a0b2647211110508c84d7536d43b6</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="NARR">4e3a0b2647211110508c84d7536d43b6</sys_scope>
+        <sys_update_name>sys_script_include_52b653e247611110508c84d7536d43df</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-29 16:01:00</sys_updated_on>
+    </sys_script_include>
+</record_update>
