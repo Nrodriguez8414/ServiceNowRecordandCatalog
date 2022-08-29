@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item/>
+        <catalog_variable>IO:32aec7aa47211110508c84d7536d43ca</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-29 14:57:59</sys_created_on>
+        <sys_id>810f87ea47211110508c84d7536d4331</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>description_of_your_acomodations_need</sys_name>
+        <sys_package display_value="NARR" source="x_857394_narr">4e3a0b2647211110508c84d7536d43b6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NARR">4e3a0b2647211110508c84d7536d43b6</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_810f87ea47211110508c84d7536d4331</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-29 14:57:59</sys_updated_on>
+        <table/>
+        <ui_policy display_value="If the person need acomodation">dceec3ea47211110508c84d7536d43b5</ui_policy>
+        <variable>description_of_your_acomodations_need</variable>
+        <variable_set display_value="How to contect you">a99d0f6a47211110508c84d7536d43d6</variable_set>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="DELETE">
+        <order>200</order>
+        <sc_cat_item display_value="Report issues">e34a07a647211110508c84d7536d43e7</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-29 17:58:29</sys_created_on>
+        <sys_id>644837e247e11110508c84d7536d436c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Short description.Report issues</sys_name>
+        <sys_package display_value="NARR" source="x_857394_narr">4e3a0b2647211110508c84d7536d43b6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NARR">4e3a0b2647211110508c84d7536d43b6</sys_scope>
+        <sys_update_name>io_set_item_644837e247e11110508c84d7536d436c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-29 17:58:29</sys_updated_on>
+        <variable_set display_value="Short description">564877e247e11110508c84d7536d4339</variable_set>
+    </io_set_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NARR">4e3a0b2647211110508c84d7536d43b6</application>
+        <file_path/>
+        <instance_id>5ef90536db41b7c44d2bac44d496194e</instance_id>
+        <instance_name>dev84342</instance_name>
+        <name>io_set_item_644837e247e11110508c84d7536d436c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item"><io_set_item action="INSERT_OR_UPDATE"><order>200</order><sc_cat_item display_value="Report issues">e34a07a647211110508c84d7536d43e7</sc_cat_item><sys_class_name>io_set_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-08-29 17:58:29</sys_created_on><sys_id>644837e247e11110508c84d7536d436c</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Short description.Report issues</sys_name><sys_package display_value="NARR" source="x_857394_narr">4e3a0b2647211110508c84d7536d43b6</sys_package><sys_policy/><sys_scope display_value="NARR">4e3a0b2647211110508c84d7536d43b6</sys_scope><sys_update_name>io_set_item_644837e247e11110508c84d7536d436c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-08-29 17:58:29</sys_updated_on><variable_set display_value="Short description">564877e247e11110508c84d7536d4339</variable_set></io_set_item></record_update>]]></payload>
+        <payload_hash>1178976569</payload_hash>
+        <record_name>Short description.Report issues</record_name>
+        <reverted_from/>
+        <source>8e3a0b2647211110508c84d7536d43b8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-29 17:58:29</sys_created_on>
+        <sys_id>a968f7e247e11110508c84d7536d4304</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182eac13f620000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-29 17:58:29</sys_updated_on>
+        <type>Catalog Variable Set</type>
+        <update_guid>e168f7e27fe111103b722ec181f35304</update_guid>
+        <update_guid_history>e168f7e27fe111103b722ec181f35304:1178976569</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Short description.Report issues">b278f7e247e11110508c84d7536d4308</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-29 17:58:51</sys_created_on>
+        <sys_db_object display_value="" name="io_set_item">io_set_item</sys_db_object>
+        <sys_id>234ee4f2a11647e0b2c7e491b6208641</sys_id>
+        <sys_metadata>644837e247e11110508c84d7536d436c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Short description.Report issues</sys_name>
+        <sys_package display_value="NARR" source="x_857394_narr">4e3a0b2647211110508c84d7536d43b6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NARR">4e3a0b2647211110508c84d7536d43b6</sys_scope>
+        <sys_scope_delete display_value="">6ea873c6b79640d6ae4eaedeb71eb5a9</sys_scope_delete>
+        <sys_update_name>io_set_item_644837e247e11110508c84d7536d436c</sys_update_name>
+        <sys_update_version display_value="io_set_item_644837e247e11110508c84d7536d436c">a968f7e247e11110508c84d7536d4304</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-29 17:58:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

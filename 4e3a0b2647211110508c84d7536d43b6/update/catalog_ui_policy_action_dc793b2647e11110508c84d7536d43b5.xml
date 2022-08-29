@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Report issues">e34a07a647211110508c84d7536d43e7</catalog_item>
+        <catalog_variable>IO:468837e247e11110508c84d7536d43a8</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-29 18:03:18</sys_created_on>
+        <sys_id>dc793b2647e11110508c84d7536d43b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>description</sys_name>
+        <sys_package display_value="NARR" source="x_857394_narr">4e3a0b2647211110508c84d7536d43b6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NARR">4e3a0b2647211110508c84d7536d43b6</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_dc793b2647e11110508c84d7536d43b5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-29 18:03:18</sys_updated_on>
+        <table/>
+        <ui_policy display_value="description for all problems">f539372647e11110508c84d7536d43dc</ui_policy>
+        <variable>description</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>
